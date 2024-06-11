@@ -1,1 +1,98 @@
 https://meet.google.com/qgf-wqpb-ofv
+
+win + R => cmd
+
+node -v
+
+Создание нового проекта:
+npx create-react-app .
+
+
+Set-ExecutonPolicy Unrestricted
+
+npm install npm -g
+
+
+http://localhost:3000/
+
+
+components
+	header
+		Header.js
+		Header.css
+		logo.svg
+	article
+		Article.js
+		Article.css
+	Footer.js
+	navigation
+		Nav.js
+		Nav.css
+		
+
+
+ctrl + shift + p and type "settings json"
+
+"terminal.integrated.profiles.windows": {
+  "PowerShell": {
+    "source": "PowerShell",
+    "icon": "terminal-powershell",
+    "args": ["-ExecutionPolicy", "Bypass"]
+  }
+},
+"terminal.integrated.defaultProfile.windows": "PowerShell",
+
+
+открыть PowerShell от имени администратора:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser  
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+
+npm start
+
+State - позволяет хранить внутреннее состояние компонента
+
+
+Hello.js
+Length.js
+Form.js
+Range.js
+
+Posts.js
+Post.js
+
+Test.js
+User.js
+
+
+папка layout
+	Header.js
+	Header.css
+	Footer.js
+	Footer.js
+	Main.js
+	Main.css
+папка components
+	MovieList.js
+	MovieList.css
+	Movie.js
+	Movie.css
+	Preloader.js
+	Preloader.css
+	Search.js
+	Search.css
+	
+	
+	
+	
+
+	
+
+
+http://www.omdbapi.com/?apikey=4eb9d7f&s=matrix
+http://www.omdbapi.com/?apikey=4eb9d7f&s=Negotiator
+
+N/A
+
+
