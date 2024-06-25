@@ -96,3 +96,75 @@ http://www.omdbapi.com/?apikey=4eb9d7f&s=Negotiator
 N/A
 
 
+http://www.omdbapi.com/?apikey=4eb9d7f&s=matrix&type=series&page=2
+http://www.omdbapi.com/?apikey=4eb9d7f&s=matrix
+
+
+git init
+git add -A
+git status
+git commit -m "project complete"
+
+npm install gh-pages --save-dev
+
+"https://имя_на_github.github.io/имя_репозитория"
+
+git add -A
+git commit -m "gh pages added"
+git push
+
+
+npm run deploy
+
+
+Хук состояния
+
+import {useState} from 'react';
+
+let [value, setValue] = useState();
+
+
+Counter.js
+Person.js
+Modal.js
+Item.js
+
+Task.js
+Form.js
+
+src
+	components
+		quizzes
+			Quizzes.js
+			Quizzes.css
+		progress
+			ProgressBar.js
+			Progress.css
+		result
+			Result.js
+			Result.css
+			
+			
+components
+	users
+		Users.js
+		User.js
+		Users.css
+	success
+		Success.js
+		Success.css
+		
+		
+
+https://reqres.in/api/users	
+		
+npm install react-router-dom
+
+Home.js
+About.js
+Articles.js
+components
+	Layout.js
+AboutInfo.js
+
+http://localhost:3000/about/Hello

@@ -11,7 +11,7 @@ body{
   background: #c8ff00;
 }
 
-============================ users.css =============================
+=========================== Users.css =============================
 .main{
     background: #FFF;
     margin-top: 50px;
@@ -93,7 +93,7 @@ div>b{
     cursor: pointer;
 }
 
-=========================== success.css ============================
+=========================== Success.css ============================
 .success-block{
     text-align: center;
 }
