@@ -1,8 +1,9 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function AboutInfo() {
     let { id } = useParams();
+    let navigate = useNavigate();
 
     let [post, setPost] = useState([null]);
 
@@ -12,6 +13,8 @@ function AboutInfo() {
             .then(data => setPost(data))
     }, [id]);
 
+    let goBack = () => navigate(-1);
+
     return (
         <div className="content">
             {
@@ -19,6 +22,7 @@ function AboutInfo() {
                     <>
                         <h2>{post.title}</h2>
                         <p>{post.body}</p>
+                        <button onClick={goBack}>Назад</button>
                     </>
                 )
             }
