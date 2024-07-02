@@ -175,6 +175,20 @@ NotFoundPage.js
 
 
 src
+	config.js
+	api.js
+	components
+		MealList.js
+		Meal.js
+		preloader
+			Preloader.css
+			Preloader.js
+		categoryList
+			CategoryList.js
+			CategoryList.css
+		categoryItem
+			CategoryItem.js
+			CategoryItem.css
 	pages
 		footer
 			Footer.css
@@ -188,8 +202,13 @@ src
 			About.js
 			Contacts.js
 			NotFound.js
+			Category.js
 			
 			
+https://www.themealdb.com/api/json/v1/1/categories.php
+https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772
+https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
+
 
 
 

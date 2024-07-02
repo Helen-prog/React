@@ -4,6 +4,7 @@ import Home from './pages/main/Home';
 import About from './pages/main/About';
 import Contacts from './pages/main/Contacts';
 import NotFound from './pages/main/NotFound';
+import Category from './pages/main/Category';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About text={text} />} />
         <Route path="contacts" element={<Contacts />} />
+        <Route path="category/:name" element={<Category />} />
         <Route path="*" element={<NotFound />} />
       </Route>
      </Routes>

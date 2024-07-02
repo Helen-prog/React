@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.card{
+  max-width: 700px;
+  margin: 100px auto;
+  box-shadow: 0 0 2px 2px #CCC;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.card-image{
+  width: 300px;
+  margin-right: 20px;
+}
+
+.button-controls{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image img{
+  width: 300px;
+}
+
+.button-controls button{
+  width: 48%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  background: #FFF;
+  color: #ff8800;
+  border: 2px solid #ff9100;
+  cursor: pointer;
+}
+
+.card-title-top input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #CCC;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card-title-top input:focus,
+.comments-item-create input:focus, 
+.comments-item input:focus{
+  outline: none;
+}
+
+.card-comments{
+  flex-basis: 400px;
+}
+
+.comments-item-create input, .comments-item input{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #CCC;
+  font-size: 18px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.comments-item{
+  display: flex;
+}
+
+.comments-item-delete{
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.comments-item-delete:hover{
+  color: #ff7b00;
+}
+
+.comments-item input:focus{
+  color: #ff7b00;
+}
+
+.card-image{
+  position: relative;
+}
+
+.top{
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 6px 20px 10px;
+  font-size: 24px;
+}
+

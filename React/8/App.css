@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0ffe7;    
+}
+
+.main h1 {
+    margin: 2px 0; 
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 6px;
+    padding: 2px 0 8px;
+    border: 2px solid #FFF;
+}
+
+.wrap {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 26px;
+}
+
+.block {
+    background: #8bbc41 url('/public/images/fon.jpg') no-repeat right top;
+    border-radius: 20px;
+    height: 300px;
+    padding: 20px;
+}
+
+.block input {
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    border: 2px solid #FFF;
+}
+
+.block input:focus{
+    background: #FFF;
+    outline: none;
+}
+
+.block button{
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+
+.display{
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.toys-block{
+    position: relative;
+    background: #f0ffe7; 
+    border: 2px solid #8bbc41;
+    padding: 20px;
+    flex-basis: 286px;
+    margin-bottom: 20px;
+}
+
+.toys-control{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF;
+    padding: 10px;
+}
+
+.toys-control svg{
+    width: 30px;
+    height: 30px;    
+}
+
+.toys-control svg:first-child{
+    margin-right: 10px;
+}
+
+.toy p{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    padding: 10px 20px;
+    font-size: 34px;
+    background: #8bbc41;
+    margin: 0;
+    font-weight: bold;
+}
+
+.toy h2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.toys-control span{
+    cursor: pointer;
+    color: #365a00;
+}
+
+.edit-form input{
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 6px;
+    background: #f7fff2;
+    font-size: 18px;
+    border: 2px solid #8bbc41;
+}
+
+.edit-form input:focus{
+    background: #FFF;
+    outline: none;
+}
+
+.edit-form button{
+    width: 100%;
+    padding: 16px 0;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    background: #365a00;
+    color: #FFF;
+}
