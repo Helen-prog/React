@@ -2,7 +2,6 @@ import { API_URL } from "./config";
 
 const getAllCategories = async () => {
     const response = await fetch(API_URL + 'categories.php');
-    console.log("response", response);
     return await response.json();
 }
 
@@ -13,7 +12,6 @@ const geetMealById = async (idMeal) => {
 
 const getFilteredCategory = async (catName) => {
     const response = await fetch(API_URL + 'filter.php?c=' + catName);
-    console.log("response", response)
     return await response.json();
 }
 

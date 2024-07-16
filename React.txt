@@ -203,12 +203,69 @@ src
 			Contacts.js
 			NotFound.js
 			Category.js
+			Recipe.js
+			Recipe.css
 			
 			
 https://www.themealdb.com/api/json/v1/1/categories.php
 https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772
 https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Epg_6F1hFY8?si=FNoe74EiFsN9F9m0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+public
+private
+protected
+readonly
+
+class User{
+    name: string;
+    age: number;
+    login: string;
+
+    constructor(name: string, age: number, login: string){
+        this.name = name;
+        this.age = age;
+        this.login = login;
+    }
+}
+
+const obj = new User("Igor", 25, "sample");
+
+console.log(obj);
 
 
+class User{
+    public name: string;
+    public age: number;
+    public login: string;
+    public psw: string
 
+    constructor(name: string, age: number, login: string, psw: string){
+        this.name = name;
+        this.age = age;
+        this.login = login;
+        this.psw = psw;
+    }
+}
+
+const obj = new User("Igor", 25, "sample", "qwerty");
+
+console.log(obj);
+
+Создание нового проекта на TypeScript:
+npx create-react-app . --template typescript
+npx create-react-app --template typescript .
+
+
+components
+	Card.tsx
+	UserList.tsx
+	UserItem.tsx
+	List.tsx
+	TodoItem.tsx
+	EventsExample.tsx
+types
+	types.tsx
+	
+	
