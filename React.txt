@@ -268,4 +268,14 @@ components
 types
 	types.tsx
 	
+components
+	AddToysForm.tsx
+	DisplayToys.tsx
+	SingleToy.tsx
+	EditToysForm.tsx
+models
+	Toys.tsx
+
+
+npm install react-icons	
 	
